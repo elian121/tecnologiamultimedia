@@ -1,7 +1,7 @@
 int pantalla;
 
 int Y =-1;
-int X=300;
+int X=50;
 void setup() {
   size (600, 600);
 }
@@ -81,7 +81,7 @@ fill(255);
   background(0, 0, 0);
   fill(250);
   
-  text("EL FiiiiiiiN", X, Y);
+  text("EL FiiiiiiiN      PASSERO ELIAN LEGAJO: 81693/8  MARINA NICOLAS LEGAJO 81899/2:", X, Y,500,500);
   Y=Y+1;
   if (Y>600) {
     Y=-1;
